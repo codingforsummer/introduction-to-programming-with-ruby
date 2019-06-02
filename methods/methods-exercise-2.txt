@@ -1,0 +1,37 @@
+Methods - Exercise 2
+
+What do the following expressions evaluate to?
+
+1. x = 2
+=> 2
+
+This evaluates to 2, because 2 is assigned to the variable x.
+This is implicit return.
+
+
+2. puts x = 2
+2
+=> nil
+
+the integer 2 is output because it's assigned to x, but nil is returned 
+because puts will always return nil. 
+
+
+3. p name = "Joe"
+"Joe"
+=> "Joe"
+This outputs the string assigned to name, including the double quotes. 
+p returns the value, rather than nil, which is what puts does.
+
+
+4. four = "four"
+"four"
+
+Implicitly returns the value assigned to the variable four, which is the string "four".
+
+
+5. print something = "nothing"
+nothing => nil
+
+print doesn't create a new line like puts does, so we get the output - the value
+assigned to something (without quotes) - and the returned value nil on one line.
