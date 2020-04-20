@@ -7,3 +7,5 @@ strings.each do |string|
     puts "#{string} doesn't exist!"
   end
 end
+
+# test
