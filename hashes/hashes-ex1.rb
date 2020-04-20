@@ -10,5 +10,5 @@ end
 # => {:sisters=>["jane", "jill", "beth"], :brothers=>["frank", "rob", "david"]}
 
 arr = immediate_family.values.flatten
-# => ["jane", "jill", "beth", "frank", "rob", "david"].
+# => ["jane", "jill", "beth", "frank", "rob", "david"]
 p arr
